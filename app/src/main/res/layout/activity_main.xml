@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    <!-- Các ô nhập liệu -->
+    <ListView
+        android:id="@+id/lvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <!-- Nút thêm sản phẩm đặt ở dưới cùng -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_rounded"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end"/>
+</LinearLayout>
